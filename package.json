@@ -1,0 +1,10 @@
+{
+  "name": "image-to-text-application",
+  "private": true,
+  "packageManager": "pnpm@12.18.0",
+  "scripts": {
+    "dev": "corepack pnpm --filter @image-to-text/web dev",
+    "build": "corepack pnpm --filter @image-to-text/web build",
+    "test:api": "python -m pytest apps/api/tests"
+  }
+}
